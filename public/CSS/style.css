@@ -22,51 +22,8 @@ body{
     color: #222222 !important;
  }
 
- /* === Footer Styling === */
-footer {
-  background-color: #fff; /* white background */
-  color: #333;            /* dark text */
-  padding: 60px 30px 30px 30px;
-  font-family: 'Roboto', sans-serif;
-  border-top: 3px solid #FF5A5F; /* red accent */
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: space-between;
-}
-
-.footer-section {
-  flex: 1 1 250px;
-  min-width: 250px;
-}
-
-.footer-section h3 {
-  margin-bottom: 15px;
-  color: #FF5A5F; /* red headings */
-  font-size: 18px;
-}
-
-.footer-section p,
-.footer-section li {
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 8px;
-  color: #555; /* dark gray text */
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.social-icons i {
-  font-size: 24px
-
-
- /* .f-info-links a{
+ /* Footer */
+ .f-info-links a{
     text-decoration: none;
     color: #222222;
  }
@@ -92,7 +49,7 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-} */
+}
 
 /* Cards */
 .listing-card{
