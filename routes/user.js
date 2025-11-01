@@ -11,7 +11,6 @@ router.route("/signup")
 .get(userController.renderSignUpForm)
 .post(wrapAsync(userController.signUp));
 
-
 router.route("/login")
 .get(userController.renderLoginForm)
 .post(saveRedirectUrl,
@@ -19,10 +18,6 @@ router.route("/login")
         {failureRedirect:"/login",failureFlash:true,}),
         userController.login
 )
-
-
-
-
 
 router.get("/logout",userController.logout)
 
